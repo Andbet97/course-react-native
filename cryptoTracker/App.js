@@ -1,9 +1,12 @@
 import React from 'react';
-import CoinsStack from './src/components/coins/CoinsStack';
+import { NavigationContainer } from '@react-navigation/native';
+import CoinsStack from 'cryptoTracker/src/components/coins/CoinsStack';
 
 const App = () => {
   return (
-    <CoinsStack />
+    <NavigationContainer>
+      <CoinsStack />
+    </NavigationContainer>
   );
 };
 

@@ -1,11 +1,13 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { View, Text } from 'react-native';
 
 const CoinsScreen = () => {
     return (
-        <Text>
-            Screen Coins
-        </Text>
+        <View>
+            <Text>
+                Screen Coins
+            </Text>
+        </View>
     );
 };
 
